@@ -4,3 +4,7 @@
 if ([self respondsToSelector:@selector(setCellLayoutMarginsFollowReadableWidth:)]) {
             self.cellLayoutMarginsFollowReadableWidth = NO;
         }
+
+2.textView 文字缩进
+2.解决
+_anwserView.textContainerInset = UIEdgeInsetsMake(15, 35, 5, 35);
