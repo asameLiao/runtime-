@@ -1,0 +1,6 @@
+问题记录 
+1.cell 自动缩进
+1.解决
+if ([self respondsToSelector:@selector(setCellLayoutMarginsFollowReadableWidth:)]) {
+            self.cellLayoutMarginsFollowReadableWidth = NO;
+        }
