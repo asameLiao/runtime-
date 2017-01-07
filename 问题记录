@@ -8,3 +8,7 @@ if ([self respondsToSelector:@selector(setCellLayoutMarginsFollowReadableWidth:)
 2.textView 文字缩进
 2.解决
 _anwserView.textContainerInset = UIEdgeInsetsMake(15, 35, 5, 35);
+
+3."no visible @interface for 'UILabel' that declares the selector to" 
+3.解决 
+方法参数个数不对
