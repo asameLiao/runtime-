@@ -12,3 +12,6 @@ _anwserView.textContainerInset = UIEdgeInsetsMake(15, 35, 5, 35);
 3."no visible @interface for 'UILabel' that declares the selector to" 
 3.解决 
 方法参数个数不对
+
+4.@preporty block属性
+@property (weak, nonatomic) void(^PasswdHandle)(NSString *passed); (void (^)(NSString *))block
