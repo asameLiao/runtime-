@@ -15,3 +15,8 @@ _anwserView.textContainerInset = UIEdgeInsetsMake(15, 35, 5, 35);
 
 4.@preporty block属性
 @property (weak, nonatomic) void(^PasswdHandle)(NSString *passed); (void (^)(NSString *))block
+
+
+5.同时设置 多个 transform 
+
+weakM.layer.transform = CATransform3DConcat(CATransform3DMakeScale(kScreenH/kScreenW,kScreenW/weakM.height, 1), CATransform3DMakeRotation(M_PI_2, 0, 0, 1));
