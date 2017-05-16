@@ -20,3 +20,9 @@ _anwserView.textContainerInset = UIEdgeInsetsMake(15, 35, 5, 35);
 5.同时设置 多个 transform 
 
 weakM.layer.transform = CATransform3DConcat(CATransform3DMakeScale(kScreenH/kScreenW,kScreenW/weakM.height, 1), CATransform3DMakeRotation(M_PI_2, 0, 0, 1));
+
+6.coloctionView reload 没反应
+
+不要使用懒加载
+
+7.WeChat 分享图片，不能超过限制大小
