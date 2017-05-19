@@ -26,3 +26,11 @@ weakM.layer.transform = CATransform3DConcat(CATransform3DMakeScale(kScreenH/kScr
 不要使用懒加载
 
 7.WeChat 分享图片，不能超过限制大小
+
+8.这就是为什么在tableview上的按钮点击时的高亮状态会有延迟效果了，解决方法也很简单，只需在创建tableview的时候添加下面几行代码就搞定了
+
+for (UIView *subView in tabView.subviews) {  
+        if ([subView isKindOfClass:[UIScrollView class]]) {  
+            ((UIScrollView *)subView).delaysContentTouches = NO;  
+        }  
+    }  
