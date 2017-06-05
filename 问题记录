@@ -34,3 +34,6 @@ for (UIView *subView in tabView.subviews) {
             ((UIScrollView *)subView).delaysContentTouches = NO;  
         }  
     }  
+9. __stack_chk_fail 问题 
+
+详细见 http://blog.csdn.net/zengyubao1/article/details/51597654
