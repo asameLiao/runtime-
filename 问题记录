@@ -41,3 +41,6 @@ for (UIView *subView in tabView.subviews) {
 10.打开系统设置-WIFI
 NSURL *url = [NSURL URLWithString:@"App-Prefs:root=WIFI"];
     BOOL YSS = [[UIApplication sharedApplication] canOpenURL:url];
+    
+ 11.完整卸载xcode 
+ http://qiita.com/vc7/items/3d4b09d305509a85268f    //知乎 https://www.zhihu.com/question/19780670
